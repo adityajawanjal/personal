@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container-home {
+  padding: 2vh;
+  max-width: 100%;
+  height: 75vh;
+}
+.profile-img {
+  width: 180px;
+  height: auto;
+  position: absolute;
+  left: 25vw;
+  top: 30vh;
+}
+.cloud-img {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  left: 35vw;
+  top: 16vh;
+}
+#think {
+  font-size: 3rem;
+  font-weight: bold;
+  position: absolute;
+  left: 40vw;
+  top: 22vh;
+}
+.info {
+  font-size: 1.5rem;
+  position: absolute;
+  left: 42vw;
+  top: 45vh;
+}
+.h2-home {
+  color: red;
+}
+h3 {
+  margin: 5px 0;
+}
+.btn {
+  border: 2px solid red;
+  border-radius: 50px;
+  padding: 15px 30px;
+  margin: 10px 10px 0 0;
+  font-size: 1.3rem;
+}
+.btn:hover {
+  background-color: aliceblue;
+  color: blue;
+  cursor: pointer;
+  transform: translateY(5px);
+}
+@media only screen and (max-width: 3800px) {
+  #think {
+    left: 37vw;
+    top: 21vh;
+  }
+}
+@media only screen and (max-width: 3100px) {
+  #think {
+    left: 38vw;
+  }
+}
+@media only screen and (max-width: 2150px) {
+  #think {
+    left: 40vw;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .profile-img {
+    top: 40vh;
+  }
+  .cloud-img {
+    left: 38vw;
+    top: 27vh;
+  }
+  #think {
+    left: 44vw;
+    top: 31vh;
+  }
+  .info {
+    left: 47vw;
+    top: 51vh;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .container-home {
+    height: 100vh;
+  }
+  .profile-img {
+    left: 35vw;
+    top: 30vh;
+  }
+  .cloud-img {
+    left: 51vw;
+    top: 20vh;
+    height: 20vh;
+  }
+  #think {
+    left: 58vw;
+    top: 25vh;
+  }
+  .info {
+    margin: 10vh 0;
+    left: 32vw;
+    top: 80vh;
+  }
+}
+@media only screen and (max-width: 920px) {
+  #think,
+  .cloud-img {
+    display: none;
+  }
+  .info {
+    left: 23vw;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .profile-img {
+    left: 10vw;
+  }
+  .info {
+    left: 9vw;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .h2-home {
+    margin: 30px 0;
+  }
+  #logo-img {
+    left: 8vw;
+  }
+  #name {
+    left: 8vw;
+  }
+  .info {
+    overflow-wrap: normal;
+    line-height: 25px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .btn {
+    border: 1px solid red;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin: 7px 7px 0 0;
+    font-size: 1rem;
+  }
+}
